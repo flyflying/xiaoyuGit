@@ -1,2 +1,3 @@
 # xiaoyuGit
-my study about git leaning!
+my study about code!
+learning
