@@ -90,16 +90,16 @@
         
         //创建skip按钮
         _skipBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _skipBtn.frame = CGRectMake(mainWidth-70, 20, 60, 30);
-        _skipBtn.backgroundColor = [UIColor brownColor];
+        _skipBtn.frame = CGRectMake(mainWidth-70, 30, 60, 22);
+        _skipBtn.backgroundColor = [UIColor colorWithRed:100/255.0 green:100/255.0 blue:100/255.0 alpha:0.5];
         _skipBtn.titleLabel.font = [UIFont systemFontOfSize:13];
-        [_skipBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_skipBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_skipBtn addTarget:self action:@selector(skip) forControlEvents:UIControlEventTouchUpInside];
         _skipBtn.hidden = YES;
         _skipBtn.selected = NO;
         [self addSubview:_skipBtn];
         
-        UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:_skipBtn.bounds byRoundingCorners:UIRectCornerBottomRight | UIRectCornerTopRight cornerRadii:CGSizeMake(15, 15)];
+        UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:_skipBtn.bounds byRoundingCorners:UIRectCornerBottomRight|UIRectCornerTopRight|UIRectCornerTopLeft|UIRectCornerBottomLeft cornerRadii:CGSizeMake(15, 15)];
         CAShapeLayer * maskLayer = [[CAShapeLayer alloc] init];
         maskLayer.frame = _skipBtn.bounds;
         maskLayer.path = maskPath.CGPath;
