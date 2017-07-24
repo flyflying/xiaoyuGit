@@ -44,4 +44,6 @@ typedef void (^ClickBlock) (ClickType clickType);
 
 -(instancetype)initWithWindow:(UIWindow *)window Type:(AddType)type AddImageURL:(NSString *)urlStr;
 
+-(void)skip;
+
 @end

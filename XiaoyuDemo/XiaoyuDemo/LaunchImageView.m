@@ -94,6 +94,7 @@
         _skipBtn.backgroundColor = [UIColor colorWithRed:100/255.0 green:100/255.0 blue:100/255.0 alpha:0.5];
         _skipBtn.titleLabel.font = [UIFont systemFontOfSize:13];
         [_skipBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [_skipBtn setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         [_skipBtn addTarget:self action:@selector(skip) forControlEvents:UIControlEventTouchUpInside];
         _skipBtn.hidden = YES;
         _skipBtn.selected = NO;
@@ -178,7 +179,7 @@
         
         [UIView beginAnimations:nil context:UIGraphicsGetCurrentContext()];
         [UIView setAnimationDuration:0.5f];//动画时间
-        self.transform=CGAffineTransformMakeScale(2.0f, 2.0f);//放大
+        _skipBtn.transform=CGAffineTransformMakeScale(2.0f, 2.0f);//放大
         [UIView commitAnimations]; //启动动画  
 
         [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(hiddeSelf) userInfo:nil repeats:NO];

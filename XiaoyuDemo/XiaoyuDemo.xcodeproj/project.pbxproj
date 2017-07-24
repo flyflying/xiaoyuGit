@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785B786D1E8CA45400B58E77 /* XiaoyuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785B786C1E8CA45400B58E77 /* XiaoyuDemoTests.m */; };
+		785B787B1E8CB2A900B58E77 /* XiaoyuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 785B787A1E8CB2A900B58E77 /* XiaoyuDemoUITests.m */; };
 		786C48CA1E80C63C008A2810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 786C48C91E80C63C008A2810 /* main.m */; };
 		786C48CD1E80C63C008A2810 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786C48CC1E80C63C008A2810 /* AppDelegate.m */; };
 		786C48D01E80C63C008A2810 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786C48CF1E80C63C008A2810 /* ViewController.m */; };
@@ -33,7 +35,30 @@
 		786C49221E8252A5008A2810 /* fly.gif in Resources */ = {isa = PBXBuildFile; fileRef = 786C49211E8252A5008A2810 /* fly.gif */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		785B786F1E8CA45400B58E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786C48BD1E80C63C008A2810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786C48C41E80C63C008A2810;
+			remoteInfo = XiaoyuDemo;
+		};
+		785B787D1E8CB2A900B58E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786C48BD1E80C63C008A2810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786C48C41E80C63C008A2810;
+			remoteInfo = XiaoyuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		785B786A1E8CA45400B58E77 /* XiaoyuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoyuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785B786C1E8CA45400B58E77 /* XiaoyuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoyuDemoTests.m; sourceTree = "<group>"; };
+		785B786E1E8CA45400B58E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785B78781E8CB2A900B58E77 /* XiaoyuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoyuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785B787A1E8CB2A900B58E77 /* XiaoyuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoyuDemoUITests.m; sourceTree = "<group>"; };
+		785B787C1E8CB2A900B58E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		786C48C51E80C63C008A2810 /* XiaoyuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoyuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786C48C91E80C63C008A2810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		786C48CB1E80C63C008A2810 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +111,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		785B78671E8CA45400B58E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785B78751E8CB2A900B58E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		786C48C21E80C63C008A2810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,10 +135,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		785B786B1E8CA45400B58E77 /* XiaoyuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				785B786C1E8CA45400B58E77 /* XiaoyuDemoTests.m */,
+				785B786E1E8CA45400B58E77 /* Info.plist */,
+			);
+			path = XiaoyuDemoTests;
+			sourceTree = "<group>";
+		};
+		785B78791E8CB2A900B58E77 /* XiaoyuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				785B787A1E8CB2A900B58E77 /* XiaoyuDemoUITests.m */,
+				785B787C1E8CB2A900B58E77 /* Info.plist */,
+			);
+			path = XiaoyuDemoUITests;
+			sourceTree = "<group>";
+		};
 		786C48BC1E80C63C008A2810 = {
 			isa = PBXGroup;
 			children = (
 				786C48C71E80C63C008A2810 /* XiaoyuDemo */,
+				785B786B1E8CA45400B58E77 /* XiaoyuDemoTests */,
+				785B78791E8CB2A900B58E77 /* XiaoyuDemoUITests */,
 				786C48C61E80C63C008A2810 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				786C48C51E80C63C008A2810 /* XiaoyuDemo.app */,
+				785B786A1E8CA45400B58E77 /* XiaoyuDemoTests.xctest */,
+				785B78781E8CB2A900B58E77 /* XiaoyuDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +263,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		785B78691E8CA45400B58E77 /* XiaoyuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785B78731E8CA45400B58E77 /* Build configuration list for PBXNativeTarget "XiaoyuDemoTests" */;
+			buildPhases = (
+				785B78661E8CA45400B58E77 /* Sources */,
+				785B78671E8CA45400B58E77 /* Frameworks */,
+				785B78681E8CA45400B58E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785B78701E8CA45400B58E77 /* PBXTargetDependency */,
+			);
+			name = XiaoyuDemoTests;
+			productName = XiaoyuDemoTests;
+			productReference = 785B786A1E8CA45400B58E77 /* XiaoyuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		785B78771E8CB2A900B58E77 /* XiaoyuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785B787F1E8CB2A900B58E77 /* Build configuration list for PBXNativeTarget "XiaoyuDemoUITests" */;
+			buildPhases = (
+				785B78741E8CB2A900B58E77 /* Sources */,
+				785B78751E8CB2A900B58E77 /* Frameworks */,
+				785B78761E8CB2A900B58E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785B787E1E8CB2A900B58E77 /* PBXTargetDependency */,
+			);
+			name = XiaoyuDemoUITests;
+			productName = XiaoyuDemoUITests;
+			productReference = 785B78781E8CB2A900B58E77 /* XiaoyuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		786C48C41E80C63C008A2810 /* XiaoyuDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 786C48DC1E80C63C008A2810 /* Build configuration list for PBXNativeTarget "XiaoyuDemo" */;
@@ -228,6 +325,18 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = yml;
 				TargetAttributes = {
+					785B78691E8CA45400B58E77 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B778ENJVTS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 786C48C41E80C63C008A2810;
+					};
+					785B78771E8CB2A900B58E77 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B778ENJVTS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 786C48C41E80C63C008A2810;
+					};
 					786C48C41E80C63C008A2810 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = B778ENJVTS;
@@ -249,11 +358,27 @@
 			projectRoot = "";
 			targets = (
 				786C48C41E80C63C008A2810 /* XiaoyuDemo */,
+				785B78691E8CA45400B58E77 /* XiaoyuDemoTests */,
+				785B78771E8CB2A900B58E77 /* XiaoyuDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		785B78681E8CA45400B58E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785B78761E8CB2A900B58E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		786C48C31E80C63C008A2810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +392,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		785B78661E8CA45400B58E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785B786D1E8CA45400B58E77 /* XiaoyuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785B78741E8CB2A900B58E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785B787B1E8CB2A900B58E77 /* XiaoyuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		786C48C11E80C63C008A2810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,7 +438,70 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		785B78701E8CA45400B58E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786C48C41E80C63C008A2810 /* XiaoyuDemo */;
+			targetProxy = 785B786F1E8CA45400B58E77 /* PBXContainerItemProxy */;
+		};
+		785B787E1E8CB2A900B58E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786C48C41E80C63C008A2810 /* XiaoyuDemo */;
+			targetProxy = 785B787D1E8CB2A900B58E77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		785B78711E8CA45400B58E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B778ENJVTS;
+				INFOPLIST_FILE = XiaoyuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaofu.XiaoyuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoyuDemo.app/XiaoyuDemo";
+			};
+			name = Debug;
+		};
+		785B78721E8CA45400B58E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B778ENJVTS;
+				INFOPLIST_FILE = XiaoyuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaofu.XiaoyuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoyuDemo.app/XiaoyuDemo";
+			};
+			name = Release;
+		};
+		785B78801E8CB2A900B58E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B778ENJVTS;
+				INFOPLIST_FILE = XiaoyuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaofu.XiaoyuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XiaoyuDemo;
+			};
+			name = Debug;
+		};
+		785B78811E8CB2A900B58E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B778ENJVTS;
+				INFOPLIST_FILE = XiaoyuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaofu.XiaoyuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XiaoyuDemo;
+			};
+			name = Release;
+		};
 		786C48DA1E80C63C008A2810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -399,8 +603,10 @@
 				INFOPLIST_FILE = XiaoyuDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = xiaofu.XiaoyuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -417,12 +623,31 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaofu.XiaoyuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		785B78731E8CA45400B58E77 /* Build configuration list for PBXNativeTarget "XiaoyuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785B78711E8CA45400B58E77 /* Debug */,
+				785B78721E8CA45400B58E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785B787F1E8CB2A900B58E77 /* Build configuration list for PBXNativeTarget "XiaoyuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785B78801E8CB2A900B58E77 /* Debug */,
+				785B78811E8CB2A900B58E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		786C48C01E80C63C008A2810 /* Build configuration list for PBXProject "XiaoyuDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
